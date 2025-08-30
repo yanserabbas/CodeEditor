@@ -97,3 +97,20 @@ strong{
     margin-left: 10px;
     margin-right: 10px;
 }
+
+@media screen and (width <= 360px) {
+    textarea{
+        height: 200px;
+        width: 300px;
+        font-size: 15px;
+    }
+    iframe{
+        height: 400px;
+        width: 220px;
+    }
+    
+    footer{
+        position: relative;
+        left: 20px;
+    }
+}
