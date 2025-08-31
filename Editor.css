@@ -3,6 +3,7 @@ body{
     scroll-behavior: smooth;
 }
 
+
 label{
     height: 2rem;
     width: 100px;
@@ -96,6 +97,10 @@ p{
 strong{
     margin-left: 10px;
     margin-right: 10px;
+}
+
+#outputLabel:active{
+    color: white;
 }
 
 @media screen and (width <= 360px) {
